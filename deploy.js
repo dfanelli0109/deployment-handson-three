@@ -22,7 +22,7 @@ function installPM2() {
 // transfers local project to the remote server
 function transferProjectToRemote(failed, successful) {
   return ssh.putDirectory(
-    '../deployment-handson-two',
+    '../deployment-handson-three',
     '/home/ubuntu/deployment-handson-three',
     {
       recursive: true,
